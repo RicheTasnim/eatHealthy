@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.orange-color{
+    color: orangered;
+}
+.banner{
+    display: flex;
+    margin: 5%;
+}
+.banner p{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.button{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    padding:10px 50px;
+    color: white;
+    background-image: linear-gradient(to right, orange, orangered);
+    border-radius: 30px;
+    
+}
+.banner-box{
+    width: 50%;
+}
+.banner-box img{
+    width: 100%;
+}
+.about{
+    background-image: url(images/female/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px 50px 1000px;
+    margin: 50px 0;
+}
+.about-text{
+    width: 100%;
+    height: 50%;
+}
+.recipies{
+    margin: 5%;
+}
+.recipie-list{
+    display: flex;
+}
+.recipie{
+    width: 40%;
+    margin: 50px;
+}
+.image{
+    width: 505;
+}
+.alignment{
+    text-align: center;
+    /* justify-content: center; */
+}
+.audience{
+    margin: 5%;
+    width: 90%;
+    box-shadow: 10px 10px 10px 10px lightblue;
+    
+}
+.audience-type{
+    display: flex;
+    justify-content: space-evenly;
+}
+.platform{
+    padding: 20px;
+}
+footer{
+    height: 200px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
