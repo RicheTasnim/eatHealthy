@@ -45,16 +45,24 @@ h1{
 }
 .recipies{
     margin: 5%;
+    align-items: center;
 }
 .recipie-list{
     display: flex;
-}
-.recipie{
-    width: 40%;
+    align-items: center;
+    content: justify;
     margin: 50px;
 }
+.recipie{
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px lightblue;
+    border-radius: 25px;
+    padding: 20px;
+}
 .image{
-    width: 505;
+    width: 400px;
+    height: 300px;
 }
 .alignment{
     text-align: center;
